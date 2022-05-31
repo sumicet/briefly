@@ -1,26 +1,16 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Web3Provider } from './web3/Web3Provider';
+import { Home } from './pages/Home/Home';
+import { theme } from './theme/default';
+import { ChakraProvider } from '@chakra-ui/react';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <Web3Provider>
+            <ChakraProvider theme={theme}>
+                <Home />
+            </ChakraProvider>
+        </Web3Provider>
+    );
 }
 
 export default App;

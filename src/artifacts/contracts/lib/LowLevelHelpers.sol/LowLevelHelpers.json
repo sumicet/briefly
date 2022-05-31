@@ -1,0 +1,10 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "LowLevelHelpers",
+  "sourceName": "contracts/lib/LowLevelHelpers.sol",
+  "abi": [],
+  "bytecode": "0x60808060405234601357603a908160198239f35b600080fdfe600080fdfea2646970667358221220f44602265dd99291571ca5c8e68bd44bada983b63a2c937902b6c030c07e9b8b64736f6c634300080d0033",
+  "deployedBytecode": "0x600080fdfea2646970667358221220f44602265dd99291571ca5c8e68bd44bada983b63a2c937902b6c030c07e9b8b64736f6c634300080d0033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}
